@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(133, 133, 122);
+    background-image: url('https://source.unsplash.com/1600x900/?vaporwave');
+}
+div .nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: rgb(102, 102, 25);
+}
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #5f9ea0;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background: #5f9ea9;
+}
+
+#divBusca img{
+    float: left;
+    width: 32px;
+}
+
+.city {
+    color: white;
+}
+
+.temp {
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.humidity {
+    color: white;
+}
+
+.wind {
+    color: white;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading::after {
+    visibility: visible;
+    content: "Esperando...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}

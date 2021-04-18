@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(133, 133, 122);
-    background-image: url('https://source.unsplash.com/1600x900/?vaporwave');
+    background-image: url('https://source.unsplash.com/1600x900/?vaporwave'); 
 }
 div .nome{
     display: flex;
